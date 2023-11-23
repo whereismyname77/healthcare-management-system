@@ -36,6 +36,6 @@
             </li>
         </ul>
     </nav>
-    <x-flash-message />
+    <x-comp.flash-message />
 </body>
 </html>
