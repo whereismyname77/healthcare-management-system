@@ -98,7 +98,7 @@
         <main>
         </main>
         
-    <x-flash-message/>
+    <x-comp.flash-message/>
 
 </body>
 </html>

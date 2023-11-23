@@ -21,7 +21,7 @@
         @endif
 
         @foreach ($appointments as $appointment)
-                <x-card>
+                <x-comp.card>
                     <ul>
                         <li onMouseOver="this.style.color='red'" onMouseOut="this.style.color='black'">
                             <a href="{{ route('appointments.show', ['id' => $appointment->id]) }}">
@@ -33,7 +33,7 @@
         @endforeach
 
         @foreach ($prescriptions as $prescriptions)
-                <x-card>
+                <x-comp.card>
                     <ul>
                         <li onMouseOver="this.style.color='red'" onMouseOut="this.style.color='black'">
                             <a href="{{ route('prescription.show', ['id' => $prescriptions->id]) }}">
@@ -45,7 +45,7 @@
         @endforeach
 
             @foreach ($sickleaves as $sickleave)
-                <x-card>
+                <x-comp.card>
                     <ul>
                         <li onMouseOver="this.style.color='red'" onMouseOut="this.style.color='black'">
                             <a href="{{ asset('storage/' . $sickleave->sickleave) }}" target="_blank">
@@ -53,11 +53,11 @@
                             </a>
                         </li>
                     </ul>
-                </x-card>
+                </x-comp.card>
             @endforeach
 
             @foreach ($medicalreports as $medicalreport)
-                <x-card>
+                <x-comp.card>
                     <ul>
                         <li onMouseOver="this.style.color='red'" onMouseOut="this.style.color='black'">
                             <a href="{{ asset('storage/' . $medicalreport->medicalreport) }}" target="_blank">
@@ -65,7 +65,7 @@
                             </a>
                         </li>
                     </ul>
-                </x-card>
+                </x-comp.card>
             @endforeach
 
 
@@ -80,4 +80,4 @@
         {{-- 
 </div>
 <div class="mt-6 p-4">{{$listings->links()}}</div> --}}
-</x-layout>
+</x-comp.layout>

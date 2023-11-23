@@ -34,13 +34,7 @@
             </li>
         </ul>
     </nav>
-
-    <main>
-    </main>
-
-    <x-flash-message />
-
-
+    
     <div class="p-5 ">
         <span>
             <p style="font-size: 1.5rem"> Search Results for "{{ $query }}" </p> ID: name

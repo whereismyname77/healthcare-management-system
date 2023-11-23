@@ -1,4 +1,4 @@
-<x-AddsLayout />
+<x-comp.AddsLayout />
 <title>search appointments</title>
 <body style="overflow-x: hidden">
     
@@ -21,7 +21,7 @@
 
 @if (isset($query))
     @if ($appointment != null)
-        <x-card class="flex space-x-6 mr-6 text-lg mt-6">
+        <x-comp.card class="flex space-x-6 mr-6 text-lg mt-6">
             <ul>
                 <li>appointment id: {{ $appointment->id }}</li>
                 <li>patient : {{ $user->name }}</li>
@@ -29,7 +29,7 @@
                 <li>date : {{ $appointment->date }}</li>
                 <li>time: {{ $appointment->time }}</li>
             </ul>
-        </x-card>
+        </x-comp.card>
     @else
         <p style="color: red">  no appointment found</p>
     @endif

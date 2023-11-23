@@ -1,6 +1,6 @@
 
 <body style="overflow-x: hidden">
-    <x-layout>
+    <x-comp.layout>
     
     
         <ul class="flex space-x-6 mr-6 text-lg mb-6" style="position: absolute; left: 2%;">
@@ -10,7 +10,7 @@
         </ul>
         <br>
     
-        <x-card class="flex space-x-6 mr-6 text-lg mt-6">
+        <x-comp.card class="flex space-x-6 mr-6 text-lg mt-6">
             <ul>
                 <li>prescription id: {{$prescription->id}}</li>
                 <li>medicine name: {{$prescription->medicine_name}}</li>
@@ -19,9 +19,9 @@
                 <li>instructions: {{$prescription->instructions}}</li>
                 <li>created at: {{$prescription->created_at}}</li>
             </ul>
-        </x-card>
+        </x-comp.card>
     
-    </x-layout>
+    </x-comp.layout>
     <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"
     style="position: absolute; top: -80%; left: -40%;z-index: -1;">
     

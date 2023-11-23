@@ -1,9 +1,9 @@
-<x-AddsLayout/>
+<x-comp.AddsLayout/>
 
 <title>upload prescriptions</title>
 
 
-<x-card class="p-10 max-w-lg mx-auto mt-24">
+<x-comp.card class="p-10 max-w-lg mx-auto mt-24">
     <header class="text-center">
         <h2 class="text-2xl font-bold uppercase mb-1">
             upload prescription
@@ -65,7 +65,7 @@
 
         </div>
     </form>
-</x-card>
+</x-comp.card>
 
 
 <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"

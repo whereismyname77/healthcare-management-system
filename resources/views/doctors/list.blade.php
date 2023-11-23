@@ -1,4 +1,4 @@
-<x-AddsLayout/>
+<x-comp.AddsLayout/>
 
   <style>
 

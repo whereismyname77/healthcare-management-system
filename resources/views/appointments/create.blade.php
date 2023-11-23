@@ -1,4 +1,4 @@
-<x-AddsLayout/>
+<x-comp.AddsLayout/>
 <title>book appointments</title>
 
 <style>
@@ -12,7 +12,7 @@
 }
 </style>
 
-<x-card class="p-10 max-w-lg mx-auto mt-24">
+<x-comp.card class="p-10 max-w-lg mx-auto mt-24">
     <header class="text-center">
         <h2 class="text-2xl font-bold uppercase mb-1">
             book appointment
@@ -104,7 +104,7 @@
 
         </div>
     </form>
-</x-card>
+</x-comp.card>
 
 {{-- <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" style="position: absolute; right: 5%;top:-40%; z-index: -1;">
     <path fill="#8A3FFC" d="M54.4,-40.8C62.7,-33,56.3,-10.8,51.8,12.9C47.2,36.5,44.5,61.7,33.5,65.3C22.6,69,3.3,51.1,-16.5,39.5C-36.4,28,-56.8,22.8,-60.1,12.5C-63.4,2.3,-49.5,-13.1,-36.6,-21.9C-23.8,-30.7,-11.9,-33.1,5.6,-37.5C23.1,-42,46.1,-48.6,54.4,-40.8Z" transform="translate(100 100)" />

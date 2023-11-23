@@ -1,5 +1,5 @@
 <body style="overflow-x: hidden">
-<x-layout>
+<x-comp.layout>
 
 
     <ul class="flex space-x-6 mr-6 text-lg mb-6" style="position: absolute; left: 2%;">
@@ -9,7 +9,7 @@
     </ul>
     <br>
 
-    <x-card class="flex space-x-6 mr-6 text-lg mt-6">
+    <x-comp.card class="flex space-x-6 mr-6 text-lg mt-6">
         <ul>
             <li>appointment id: {{$appointment->id}}</li>
             <li>doctor: {{$doctor->name}} , specialty : {{$doctor->specialty}} </li>
@@ -17,9 +17,9 @@
             <li>date: {{$appointment->date}}</li>
             <li>time: {{$appointment->time}}</li>
         </ul>
-    </x-card>
+    </x-comp.card>
 
-</x-layout>
+</x-comp.layout>
 <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"
 style="position: absolute; top: -80%; left: -40%;z-index: -1; width: 160%">
 
