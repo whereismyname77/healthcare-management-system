@@ -43,7 +43,7 @@ return [
             'username' => env('MAIL_USERNAME'),
             'password' => env('MAIL_PASSWORD'),
             'timeout' => null,
-            'local_domain' => env('MAIL_EHLO_DOMAIN'),
+            'local_domain' => env('MAIL_EHLO_DOMAIN', 'healthcare-managmentsystem-801aaa06fde5.herokuapp.com')
         ],
 
         'ses' => [
