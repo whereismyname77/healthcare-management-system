@@ -39,9 +39,9 @@ class appointmentsController extends Controller
     'doctor_id.unique' => 'The selected time for this doctor is already taken. Please choose a different time.',
         ]);
 
-        appointments::create($formFields);
         $user= User::find($formFields['user_id']);
         Mail::to($user->email)->send(new mytestemail());
+        appointments::create($formFields);
 
         return redirect('/homepage/staff')->with('message','appointment booked successfully
        patient is notified through email');
