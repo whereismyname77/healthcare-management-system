@@ -1,4 +1,4 @@
-<x-layout>
+<x-comp.layout>
     @include('partials._hero')
     @include('partials._search')
 
