@@ -36,7 +36,7 @@
             <ul class="flex space-x-6 mr-6 text-lg">
                 @auth
                 <li>
-                    <span class="font-bold uppercase">welcome {{auth()->user()->name}}</span>
+                    <span class="font-bold uppercase">welcome {{auth()->user()->name}}, your system id:{{auth()->user()->id}} </span>
                 </li>
                 {{-- <li>
                     <a href="/listings/manage" class="hover:text-laravel"
