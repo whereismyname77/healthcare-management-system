@@ -182,6 +182,8 @@ Route::get('/linkstorage', function () {
 
 
 
+
+
 Route::get('/hello', function(){
     return view('welcome');
 });
