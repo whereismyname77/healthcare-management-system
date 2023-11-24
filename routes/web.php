@@ -150,7 +150,9 @@ Route::get('/login', [userController::class, 'login'])->name('login2')->middlewa
 //login
 Route::post('/users/authenticate', [userController::class, 'authenticate']);
 
-
+Route::get('/linkstorage', function () {
+    Artisan::call('storage:link');
+});
 
 
 
