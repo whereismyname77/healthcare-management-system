@@ -156,32 +156,32 @@ style="background-color:#0a0a74">
         
     
         <ul>
-    <li style="position: absolute; left: 15%; top: 90% ;font-size: 1.5rem;" onMouseOver="this.style.color='red'"
+    <li style="position: absolute; left: 15%; top: 530px ;font-size: 1.5rem;" onMouseOver="this.style.color='red'"
     onMouseOut="this.style.color='black'">
         <a href="/sickleaves/create"><i class="fa-solid fa-upload"></i> <b> upload sick leaves</b></a>
       </li>
 
-      <li style="position: absolute; left: 40%; top: 90% ;font-size: 1.5rem;" onMouseOver="this.style.color='red'"
+      <li style="position: absolute; left: 40%; top: 530px ;font-size: 1.5rem;" onMouseOver="this.style.color='red'"
       onMouseOut="this.style.color='black'">
           <a href="/medicalreports/create"><i class="fa-solid fa-upload"></i> <b> upload medical reports</b></a>
         </li>
 
-        <li style="position: absolute; left: 70%; top: 90% ;font-size: 1.5rem;" onMouseOver="this.style.color='red'"
+        <li style="position: absolute; left: 70%; top: 530px ;font-size: 1.5rem;" onMouseOver="this.style.color='red'"
       onMouseOut="this.style.color='black'">
           <a href="/prescription/create"><i class="fa-solid fa-upload"></i> <b> upload prescription</b></a>
         </li>
 
-        <li style="position: absolute; left: 15%; top: 100% ;font-size: 1.5rem;" onMouseOver="this.style.color='red'"
+        <li style="position: absolute; left: 15%; top: 590px ;font-size: 1.5rem;" onMouseOver="this.style.color='red'"
       onMouseOut="this.style.color='black'">
           <a href="/doctors/create"><i class="fa-solid fa-user-plus"></i><b> add doctors</b></a>
         </li>
 
-        <li style="position: absolute; left: 40%; top: 100% ;font-size: 1.5rem;" onMouseOver="this.style.color='red'"
+        <li style="position: absolute; left: 40%; top: 590px ;font-size: 1.5rem;" onMouseOver="this.style.color='red'"
       onMouseOut="this.style.color='black'">
           <a href="/appointments/create"> <i class="fa-solid fa-calendar-days"></i> <b> book appointment</b></a>
         </li>
 
-        <li style="position: absolute; left: 70%; top: 100% ;font-size: 1.5rem;" onMouseOver="this.style.color='red'"
+        <li style="position: absolute; left: 70%; top: 590px ;font-size: 1.5rem;" onMouseOver="this.style.color='red'"
       onMouseOut="this.style.color='black'">
           <a href="/appointments/delete"> <i class="fa-solid fa-calendar-xmark"></i> <b> delete appointment</b></a>
         </li>
